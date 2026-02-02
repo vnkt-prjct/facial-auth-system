@@ -1,0 +1,6 @@
+flask
+opencv-python
+face-recognition
+numpy==1.26.4
+scipy
+Pillow

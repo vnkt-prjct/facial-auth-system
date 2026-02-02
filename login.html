@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Face Login</title>
+</head>
+<body>
+<h2>Web Facial Login</h2>
+<img src="{{ url_for('video') }}" width="400">
+<form action="/authenticate" method="post">
+<button type="submit">Login</button>
+</form>
+</body>
+</html>

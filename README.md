@@ -51,11 +51,16 @@ It is more secure than normal face login because it can stop:
 ## Project Files
 
 facial-auth-system/
+
 ├── app.py (Main program)
+
 ├── requirements.txt (List of required software)
+
 ├── .gitignore (Files that should not be uploaded)
+
 ├── utils/
 │ └── liveness.py (Checks blinking and mouth movement)
+
 ├── templates/
 │ ├── login.html (Login page)
 │ └── dashboard.html (Dashboard page)
